@@ -151,7 +151,7 @@ async function sendToTelegram(summaries) {
     });
 
     // 發送標題
-    await bot.sendMessage(chatId, `📰 *技術文摘精選*\n${date}`, {
+    await bot.sendMessage(chatId, `📰 *國際產經精選*\n${date}`, {
         parse_mode: 'Markdown'
     });
 
